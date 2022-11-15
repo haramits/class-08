@@ -1,0 +1,25 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    // font-family: $defaultfont;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+// body{
+//     background-color: burlywood;
+// }
+
+main,
+main > section{
+    display: flex;
+    flex-direction: column;
+}
+
+details{
+    display: none;
+}
+.title-page{
+    display: none;
+}
